@@ -4,6 +4,12 @@ namespace App\Console;
 
 use App\Console\Commands\AppInstall;
 use App\Console\Commands\RequeteChapitre10\Requete10A;
+use App\Console\Commands\RequeteChapitre12\Requete12A;
+use App\Console\Commands\RequeteChapitre13\Requete13A;
+use App\Console\Commands\RequeteChapitre13\Requete13B;
+use App\Console\Commands\RequeteChapitre13\Requete13C;
+use App\Console\Commands\RequeteChapitre13\Requete13D;
+use App\Console\Commands\RequeteChapitre13\Requete13E;
 use App\Console\Commands\RequeteChapitre4\Requete4A;
 use App\Console\Commands\RequeteChapitre4\Requete4B;
 use App\Console\Commands\RequeteChapitre4\Requete4C;
@@ -47,6 +53,12 @@ class Kernel extends ConsoleKernel
         Requete9A::class,
         Requete9B::class,
         Requete10A::class,
+        Requete12A::class,
+        Requete13A::class,
+        Requete13B::class,
+        Requete13C::class,
+        Requete13D::class,
+        Requete13E::class,
     ];
 
     /**
