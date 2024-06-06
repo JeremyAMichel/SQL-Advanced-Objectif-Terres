@@ -10,6 +10,7 @@ use App\Console\Commands\RequeteChapitre13\Requete13B;
 use App\Console\Commands\RequeteChapitre13\Requete13C;
 use App\Console\Commands\RequeteChapitre13\Requete13D;
 use App\Console\Commands\RequeteChapitre13\Requete13E;
+use App\Console\Commands\RequeteChapitre14\Requete14A;
 use App\Console\Commands\RequeteChapitre4\Requete4A;
 use App\Console\Commands\RequeteChapitre4\Requete4B;
 use App\Console\Commands\RequeteChapitre4\Requete4C;
@@ -37,28 +38,47 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         AppInstall::class,
+        // Chapitre 4
+
         Requete4A::class,
         Requete4B::class,
         Requete4C::class,
         Requete4D::class,
         Requete4E::class,
         Requete4F::class,
+
+        // Chapitre 6
         Requete6A::class,
         Requete6B::class,
         Requete6C::class,
+
+        // Chapitre 7
         Requete7A::class,
         Requete7B::class,
+
+        // Chapitre 8
         Requete8A::class,
         Requete8B::class,
+
+        // Chapitre 9
         Requete9A::class,
         Requete9B::class,
+
+        // Chapitre 10
         Requete10A::class,
+
+        // Chapitre 12
         Requete12A::class,
+
+        // Chapitre 13
         Requete13A::class,
         Requete13B::class,
         Requete13C::class,
         Requete13D::class,
         Requete13E::class,
+
+        // Chapitre 14
+        Requete14A::class,
     ];
 
     /**
