@@ -11,6 +11,8 @@ use App\Console\Commands\RequeteChapitre13\Requete13C;
 use App\Console\Commands\RequeteChapitre13\Requete13D;
 use App\Console\Commands\RequeteChapitre13\Requete13E;
 use App\Console\Commands\RequeteChapitre14\Requete14A;
+use App\Console\Commands\RequeteChapitre15\Requete15A;
+use App\Console\Commands\RequeteChapitre16\Requete16A;
 use App\Console\Commands\RequeteChapitre4\Requete4A;
 use App\Console\Commands\RequeteChapitre4\Requete4B;
 use App\Console\Commands\RequeteChapitre4\Requete4C;
@@ -79,6 +81,12 @@ class Kernel extends ConsoleKernel
 
         // Chapitre 14
         Requete14A::class,
+
+        // Chapitre 15
+        Requete15A::class,
+
+        // Chapitre 16
+        Requete16A::class,
     ];
 
     /**
